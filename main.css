@@ -1,0 +1,55 @@
+body{
+    background-color: rgb(253, 254, 255);
+
+}
+.navbar{
+   box-shadow: rgb(34, 33, 33);
+}
+.nav-item,
+.nav-link{
+    font-size: medium;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    align-items: center;
+    color: whitesmoke;
+    word-spacing: 30px;
+}
+.nav-item  a:hover{
+
+ border-bottom: 3px solid rgb(179, 224, 250);
+}
+
+.overlay {
+    position:absolute;
+    min-height: 100%;
+    min-width: 100%;
+    left: 0;
+    top: 11.7%;
+    background: rgba(0, 0, 0, 0.6);
+}
+.description {
+	left: 50%;
+	position: absolute;
+	top: 45%;
+	transform: translate(-50%, -55%);
+	text-align: center;
+}
+
+.description h1 {
+	color: #ade0fd;
+	text-shadow: rgb(233, 252, 245);
+}
+
+.description p {
+	color: #fff;
+	font-size: 1.3rem;
+	line-height: 1.5;
+}
+.gap100{
+    padding: 40px 0px;
+}
+footer{
+    background: rgb(21, 20, 31);
+}
+
+
+
